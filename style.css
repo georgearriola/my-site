@@ -1,1 +1,23 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #1a1a1a;
+  font-family: sans-serif;
+}
 
+#canvas-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Optional: Add a UI overlay for controls */
+.instructions {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  pointer-events: none;
+  background: rgba(0,0,0,0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
